@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple C# guide</title>
+</head>
+
+<body>
+    <div>
+        <h1>Simple C# guide </h1>
+
+
+        <div>
+            <p>This is a simple C# step by step guide. The purpose of this guide is to teach the language the easiest way.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

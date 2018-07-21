@@ -13,6 +13,39 @@
 
         <div>
             <p>This is a simple C# step by step guide. The purpose of this guide is to teach the language the easiest way.</p>
+            <div><span>This course will cover :</span>
+                <ul>
+                    <li>
+                        <a href="#variables">C# Variables</a></li>
+                    <li><a href="#syntax">C# Built in types</a></li>
+                    <li>
+                        <a href="#object">The Object thing in C#</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div><label id="variables">Variables</label>
+                <p>Declare in two ways
+                </p>
+                <ol>
+                    <li>Implicit using the word var
+                        <p>Implicit is to use var and leave it for C# to decide ( var bookName="The Book";)(var numberIntiger=2;)</p>
+                    </li>
+
+                    <li>Explicit using the asignment
+                        <p>Explicit is to use the actual asingment (string bookName="The book") (int number=2;) (float pi=3.14159265359;)(decimal moneyChange=24.2) (double commonUse=5.22) </p>
+                    </li>
+
+                </ol>
+
+            </div>
+            <div>
+                <label id="syntax">Syntax</label>
+            </div>
+
+            <div><label id="object">C# Built in types</label></div>
+
         </div>
     </div>
 

@@ -9,6 +9,64 @@
 <body>
     <div>
         <h1>Simple C# guide </h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple C# guide</title>
+</head>
+
+<body>
+    <div>
+        <h1>Simple C# guide </h1>
+
+
+        <div>
+            <p>This is a simple C# step by step guide. The purpose of this guide is to teach the language the easiest way.</p>
+            <div><span>This course will cover :</span>
+                <ul>
+                    <li>
+                        <a href="#variables">C# Variables</a></li>
+                    <li><a href="#syntax">C# Built in types</a></li>
+                    <li>
+                        <a href="#object">The Object thing in C#</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div><label id="variables">Variables</label>
+                <p>Declare in two ways
+                </p>
+                <ol>
+                    <li>Implicit using the word var
+                        <p>Implicit is to use var and leave it for C# to decide ( var bookName="The Book";)(var numberIntiger=2;)</p>
+                    </li>
+
+                    <li>Explicit using the asignment
+                        <p>Explicit is to use the actual asingment (string bookName="The book") (int number=2;) (float pi=3.14159265359;)(decimal moneyChange=24.2) (double commonUse=5.22) </p>
+                    </li>
+
+                </ol>
+
+            </div>
+            <div>
+                <!--<label id="syntax">Syntax</label>-->
+            </div>
+
+            <div><label id="object">C# Is about OBJECTS!</label>
+                <p>In C# sharp if you dont craete an object,you are doing it wrong .C# is a library of objects conncted together. </p>
+                <p><span>Example</span> String. on visual Studio will bring up helpers (Classes) or (OBJECTS) complete with built in methods .In short C# tells us to use C#'s menue and chose the helpers for the main dish </p>
+                <div>
+                    <p> this is time waste <img src="/CSharpProjects/ExamplesForSimpleCSharpGuide/ExamplesForSimpleCSharpGuide/images/toUppercaseMethodeExample1.PNG" alt="" style=" display: inline-block;"> Compare to this <img src="/CSharpProjects/ExamplesForSimpleCSharpGuide/ExamplesForSimpleCSharpGuide/images/toUpperMethod.PNG" alt=""> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
 
 
         <div>

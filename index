@@ -17,9 +17,22 @@
                 <ul>
                     <li>
                         <a href="#variables">C# Variables</a></li>
-                    <li><a href="#syntax">C# Built in types</a></li>
+                    <!--
+<li><a href="#syntax">C# Built in types</a></li>-->
                     <li>
-                        <a href="#object">The Object thing in C#</a></li>
+                        <a href="#objects">The Object thing in C#</a></li>
+                    <li><a href="#string">String</a></li>
+                    <li><a href="#numbers">Numbers</a></li>
+                    <li><a href="enums#">Enums</a></li>
+                    <li>
+                        <a href="">Date and Time</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
 
                 </ul>
             </div>
@@ -27,11 +40,11 @@
         <div>
             <div><label id="variables">Variables</label>
                 <p>Declare in two ways
-                    <ul>
-                        <li>Idon't declare! </li>
-                        <li>I do declare!</li>
-                    </ul>
                 </p>
+                <ul>
+                    <li>Idon't declare! </li>
+                    <li>I do declare!</li>
+                </ul>
                 <ol>
                     <li> <span>I dont declare!</span>
                         <strong>Implicit</strong> using the word var
@@ -48,7 +61,7 @@
             <div>
                 <!--<label id="syntax">Syntax</label>-->
             </div>
-
+            <h4 id="objects">Objects</h4>
             <div><label id="object">C# Is about OBJECTS!</label>
                 <p>In C# sharp if you dont craete an object,you are doing it wrong .C# is a library of objects conncted together. </p>
                 <p><span>Example</span> String. on visual Studio will bring up helpers (Classes) or (OBJECTS) complete with built in methods .In short C# tells us to use C#'s menue and chose the helpers for the main dish </p>
@@ -56,8 +69,29 @@
                     <p> this is time waste <img src="/CSharpProjects/ExamplesForSimpleCSharpGuide/ExamplesForSimpleCSharpGuide/images/toUppercaseMethodeExample1.PNG" alt="" style=" display: inline-block;"> Compare to this <img src="/CSharpProjects/ExamplesForSimpleCSharpGuide/ExamplesForSimpleCSharpGuide/images/toUpperMethod.PNG" alt=""> </p>
                 </div>
             </div>
+            <div>
+                <h4 id="string">String</h4>
+                <p>String is text that can not be mathimaticly opreated. Example ( string number="5";) is basicly a an image of the number 5 . It will be proccessed the same way as any charchter of the alphapets </p>
+                <p> String in C# has few (P)properties but many (M) methods . Here are some of them
+
+                </p>
+                <ul>
+                    <li> (P) string.length to check string length</li>
+
+                    <li>(M)string.StringBuilder Great method to build a string any way or form or length.
+                        <p> example : Properties gives you one thing . like length and thats it . Methods opens new door of Properties . String game="Socer" game.length(); will produce (5)</p>
+                        <p>
+                            sb StringBuilder= new StringBuilder(); sb.Append("Socer"); Now Here's the magic sb now has it's own Properties
+                        </p>
+                    </li>
+                    <li>(M)string.Contains To check if the string contains a certain letter or charchter </li>
+                    <li>(M)string.ToUpper() to convert from lower cases to upper case</li>
+                </ul>
+            </div>
         </div>
+
     </div>
+
 </body>
 
 </html>
